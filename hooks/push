@@ -1,1 +1,7 @@
 #!/bin/bash
+docker push 2martens/qodana-jvm-community-drone-plugin:2023.2-amd64
+docker push 2martens/qodana-jvm-community-drone-plugin:2023.2-arm64
+docker manifest create 2martens/qodana-jvm-community-drone-plugin:2023.2 2martens/qodana-jvm-community-drone-plugin:2023.2-amd64 2martens/qodana-jvm-community-drone-plugin:2023.2-arm64
+docker tag 2martens/qodana-jvm-community-drone-plugin:2023.2 2martens/qodana-jvm-community-drone-plugin:latest
+docker push 2martens/qodana-jvm-community-drone-plugin:2023.2
+docker push 2martens/qodana-jvm-community-drone-plugin:latest
