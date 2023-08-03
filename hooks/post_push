@@ -1,3 +1,0 @@
-#!/bin/bash
-docker push 2martens/qodana-jvm-community-drone-plugin:2023.2
-docker push 2martens/qodana-jvm-community-drone-plugin:latest
