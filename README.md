@@ -1,4 +1,4 @@
-# qodana-jvm-community-drone-plugin
+# Qodana JVM Community Drone plugin
 
 This Drone plugin uses the Qodana JVM Community linter and makes it compatible with Drone.
 
